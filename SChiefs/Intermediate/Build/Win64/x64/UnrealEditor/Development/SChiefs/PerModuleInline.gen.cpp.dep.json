@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\ueprojects\\stratchiefs\\schiefs\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\schiefs\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\ueprojects\\stratchiefs\\schiefs\\intermediate\\build\\win64\\x64\\schiefseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\ueprojects\\stratchiefs\\schiefs\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\schiefs\\definitions.schiefs.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

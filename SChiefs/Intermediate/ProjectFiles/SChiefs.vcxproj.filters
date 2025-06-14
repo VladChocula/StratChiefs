@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SChiefs.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SChiefs.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SChiefsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SChiefs">
+      <UniqueIdentifier>{0C75509A-EB56-38BC-B024-BE40BA17C294}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SChiefs\SChiefs.Build.cs">
+      <Filter>Source\SChiefs</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SChiefs\SChiefs.cpp">
+      <Filter>Source\SChiefs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\SChiefs.h">
+      <Filter>Source\SChiefs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\SChiefsCharacter.cpp">
+      <Filter>Source\SChiefs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\SChiefsCharacter.h">
+      <Filter>Source\SChiefs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\SChiefsGameMode.cpp">
+      <Filter>Source\SChiefs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\SChiefsGameMode.h">
+      <Filter>Source\SChiefs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\SChiefsPlayerController.cpp">
+      <Filter>Source\SChiefs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\SChiefsPlayerController.h">
+      <Filter>Source\SChiefs</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Variant_Combat">
+      <UniqueIdentifier>{A271AD57-1717-39CB-A2BB-D1D7791688C3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\AnimNotify_CheckCombo.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatActivatable.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatActivatable.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatActivationVolume.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatActivationVolume.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatAttacker.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatAttacker.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatCheckpointVolume.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatCheckpointVolume.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatDamageable.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatDamageable.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatDamageableBox.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatDamageableBox.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatDummy.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatDummy.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatLavaFloor.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatLavaFloor.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatLifeBar.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatLifeBar.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\SChiefs\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Variant_Combat\AI">
+      <UniqueIdentifier>{1336C398-DD37-3D04-9BA2-E870684257AE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\SChiefs\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Variant_Platforming">
+      <UniqueIdentifier>{0159C4E6-4A5D-3F30-A403-C2C59490C812}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Platforming\AnimNotify_EndDash.cpp">
+      <Filter>Source\SChiefs\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Platforming\AnimNotify_EndDash.h">
+      <Filter>Source\SChiefs\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\SChiefs\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\SChiefs\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\SChiefs\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\SChiefs\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\SChiefs\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\SChiefs\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Variant_SideScrolling">
+      <UniqueIdentifier>{6572484C-DCDF-37E9-8F48-1AC71DD2991D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingCPP.Build.cs">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingInteractable.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingInteractable.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingUI.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\SideScrollingUI.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{E14D3275-2995-3A64-BB66-F577534744B3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{4F9AB9AC-A71A-39C0-B957-5AD713AE23A8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SChiefs\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\SChiefs\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\SChiefs\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

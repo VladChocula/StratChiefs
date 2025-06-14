@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SChiefs",
+			"Path": "..\\Source\\SChiefs.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SChiefsEditor",
+			"Path": "..\\Source\\SChiefsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

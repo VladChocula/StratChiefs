@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\UEProjects\\StratChiefs\\SChiefs\\Source\\SChiefs\\SChiefs.Build.cs",
+		"C:\\UEProjects\\StratChiefs\\SChiefs\\Source\\SChiefs.Target.cs",
+		"C:\\UEProjects\\StratChiefs\\SChiefs\\Source\\SChiefsEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.0"
+}
