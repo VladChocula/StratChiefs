@@ -1,4 +1,5 @@
 /I "."
+/I "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Private"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/Engine/UHT"
 /I "Runtime/Engine/Classes"
 /I "Runtime/Engine/Public"
@@ -294,6 +295,7 @@
 /I "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_SideScrolling/Gameplay"
 /I "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_SideScrolling/AI"
 /I "C:/UEProjects/StratChiefs/SChiefs/Source"
+/I "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Public"
 /I "../Plugins/EnhancedInput/Intermediate/Build/Win64/UnrealEditor/Inc/EnhancedInput/UHT"
 /I "../Plugins/EnhancedInput/Source"
 /I "../Plugins/EnhancedInput/Source/EnhancedInput/Public"

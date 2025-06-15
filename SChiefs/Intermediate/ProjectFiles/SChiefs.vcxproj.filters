@@ -11,6 +11,7 @@
     <None Include="..\..\Source\SChiefsEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -58,6 +59,39 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\SChiefs\SChiefsPlayerController.h">
       <Filter>Source\SChiefs</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\GameMode">
+      <UniqueIdentifier>{2554C778-B7F8-311F-AA71-A6F0B72913D5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\GameMode\SC_GameMode_Base.cpp">
+      <Filter>Source\SChiefs\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\GameMode\SC_GameMode_Base.h">
+      <Filter>Source\SChiefs\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Private">
+      <UniqueIdentifier>{A60E6220-72B1-3395-AE5E-FCD25506E544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SChiefs\Private\Player">
+      <UniqueIdentifier>{8C0624C8-B81C-31DD-848A-88FE44E476B9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Private\Player\SC_PlayerCharacter.cpp">
+      <Filter>Source\SChiefs\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SChiefs\Private\Player\SC_PlayerController.cpp">
+      <Filter>Source\SChiefs\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\SChiefs\Public">
+      <UniqueIdentifier>{FB9926AB-C6C1-3A98-879F-72A922ACFDB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SChiefs\Public\Player">
+      <UniqueIdentifier>{FE38D1C5-EA32-3D36-B668-FF1575CB33E3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SChiefs\Public\Player\SC_PlayerCharacter.h">
+      <Filter>Source\SChiefs\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SChiefs\Public\Player\SC_PlayerController.h">
+      <Filter>Source\SChiefs\Public\Player</Filter>
     </ClInclude>
     <Filter Include="Source\SChiefs\Variant_Combat">
       <UniqueIdentifier>{A271AD57-1717-39CB-A2BB-D1D7791688C3}</UniqueIdentifier>
