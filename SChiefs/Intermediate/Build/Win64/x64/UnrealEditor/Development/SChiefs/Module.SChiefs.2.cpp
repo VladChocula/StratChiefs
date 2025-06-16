@@ -6,6 +6,7 @@
 #include "C:/UEProjects/StratChiefs/SChiefs/Intermediate/Build/Win64/UnrealEditor/Inc/SChiefs/UHT/SChiefsCharacter.gen.cpp"
 #include "C:/UEProjects/StratChiefs/SChiefs/Intermediate/Build/Win64/UnrealEditor/Inc/SChiefs/UHT/SChiefsGameMode.gen.cpp"
 #include "C:/UEProjects/StratChiefs/SChiefs/Intermediate/Build/Win64/UnrealEditor/Inc/SChiefs/UHT/SChiefsPlayerController.gen.cpp"
+#include "C:/UEProjects/StratChiefs/SChiefs/Intermediate/Build/Win64/UnrealEditor/Inc/SChiefs/UHT/SC_BaseCharacter.gen.cpp"
 #include "C:/UEProjects/StratChiefs/SChiefs/Intermediate/Build/Win64/UnrealEditor/Inc/SChiefs/UHT/SideScrollingAIController.gen.cpp"
 #include "C:/UEProjects/StratChiefs/SChiefs/Intermediate/Build/Win64/UnrealEditor/Inc/SChiefs/UHT/SideScrollingCameraManager.gen.cpp"
 #include "C:/UEProjects/StratChiefs/SChiefs/Intermediate/Build/Win64/UnrealEditor/Inc/SChiefs/UHT/SideScrollingCharacter.gen.cpp"
@@ -46,5 +47,3 @@
 #include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Combat/CombatPlayerController.cpp"
 #include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Platforming/AnimNotify_EndDash.cpp"
 #include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Platforming/PlatformingCharacter.cpp"
-#include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Platforming/PlatformingGameMode.cpp"
-#include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Platforming/PlatformingPlayerController.cpp"

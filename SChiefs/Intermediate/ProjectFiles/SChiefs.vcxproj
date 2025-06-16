@@ -275,16 +275,20 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\SChiefs\SChiefsPlayerController.h"/>
-    <ClCompile Include="..\..\Source\SChiefs\GameMode\SC_GameMode_Base.cpp">
+    <ClCompile Include="..\..\Source\SChiefs\Private\Character\SC_BaseCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
-    <ClInclude Include="..\..\Source\SChiefs\GameMode\SC_GameMode_Base.h"/>
+    <ClCompile Include="..\..\Source\SChiefs\Private\GameMode\SC_GameMode_Base.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\SChiefs\Private\Player\SC_PlayerCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClCompile Include="..\..\Source\SChiefs\Private\Player\SC_PlayerController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\SChiefs\Public\Character\SC_BaseCharacter.h"/>
+    <ClInclude Include="..\..\Source\SChiefs\Public\GameMode\SC_GameMode_Base.h"/>
     <ClInclude Include="..\..\Source\SChiefs\Public\Player\SC_PlayerCharacter.h"/>
     <ClInclude Include="..\..\Source\SChiefs\Public\Player\SC_PlayerController.h"/>
     <ClCompile Include="..\..\Source\SChiefs\Variant_Combat\AnimNotify_CheckChargedAttack.cpp">

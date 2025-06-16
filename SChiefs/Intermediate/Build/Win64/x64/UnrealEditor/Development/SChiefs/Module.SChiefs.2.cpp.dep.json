@@ -42,6 +42,9 @@
             "c:\\ueprojects\\stratchiefs\\schiefs\\intermediate\\build\\win64\\unrealeditor\\inc\\schiefs\\uht\\schiefsplayercontroller.gen.cpp",
             "c:\\ueprojects\\stratchiefs\\schiefs\\source\\schiefs\\schiefsplayercontroller.h",
             "c:\\ueprojects\\stratchiefs\\schiefs\\intermediate\\build\\win64\\unrealeditor\\inc\\schiefs\\uht\\schiefsplayercontroller.generated.h",
+            "c:\\ueprojects\\stratchiefs\\schiefs\\intermediate\\build\\win64\\unrealeditor\\inc\\schiefs\\uht\\sc_basecharacter.gen.cpp",
+            "c:\\ueprojects\\stratchiefs\\schiefs\\source\\schiefs\\public\\character\\sc_basecharacter.h",
+            "c:\\ueprojects\\stratchiefs\\schiefs\\intermediate\\build\\win64\\unrealeditor\\inc\\schiefs\\uht\\sc_basecharacter.generated.h",
             "c:\\ueprojects\\stratchiefs\\schiefs\\intermediate\\build\\win64\\unrealeditor\\inc\\schiefs\\uht\\sidescrollingaicontroller.gen.cpp",
             "c:\\ueprojects\\stratchiefs\\schiefs\\source\\schiefs\\variant_sidescrolling\\ai\\sidescrollingaicontroller.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\aicontroller.h",
@@ -398,9 +401,7 @@
             "c:\\ueprojects\\stratchiefs\\schiefs\\source\\schiefs\\variant_platforming\\animnotify_enddash.cpp",
             "c:\\ueprojects\\stratchiefs\\schiefs\\source\\schiefs\\variant_platforming\\animnotify_enddash.h",
             "c:\\ueprojects\\stratchiefs\\schiefs\\intermediate\\build\\win64\\unrealeditor\\inc\\schiefs\\uht\\animnotify_enddash.generated.h",
-            "c:\\ueprojects\\stratchiefs\\schiefs\\source\\schiefs\\variant_platforming\\platformingcharacter.cpp",
-            "c:\\ueprojects\\stratchiefs\\schiefs\\source\\schiefs\\variant_platforming\\platforminggamemode.cpp",
-            "c:\\ueprojects\\stratchiefs\\schiefs\\source\\schiefs\\variant_platforming\\platformingplayercontroller.cpp"
+            "c:\\ueprojects\\stratchiefs\\schiefs\\source\\schiefs\\variant_platforming\\platformingcharacter.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

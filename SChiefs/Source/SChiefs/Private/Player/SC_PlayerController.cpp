@@ -3,3 +3,11 @@
 
 #include "Player/SC_PlayerController.h"
 
+ASC_PlayerController::ASC_PlayerController()
+{
+}
+
+void ASC_PlayerController::BeginPlay()
+{
+	Super::BeginPlay();
+}

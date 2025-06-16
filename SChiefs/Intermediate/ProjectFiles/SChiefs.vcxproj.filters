@@ -60,18 +60,21 @@
     <ClInclude Include="..\..\Source\SChiefs\SChiefsPlayerController.h">
       <Filter>Source\SChiefs</Filter>
     </ClInclude>
-    <Filter Include="Source\SChiefs\GameMode">
-      <UniqueIdentifier>{2554C778-B7F8-311F-AA71-A6F0B72913D5}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\SChiefs\GameMode\SC_GameMode_Base.cpp">
-      <Filter>Source\SChiefs\GameMode</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SChiefs\GameMode\SC_GameMode_Base.h">
-      <Filter>Source\SChiefs\GameMode</Filter>
-    </ClInclude>
     <Filter Include="Source\SChiefs\Private">
       <UniqueIdentifier>{A60E6220-72B1-3395-AE5E-FCD25506E544}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\SChiefs\Private\Character">
+      <UniqueIdentifier>{88572A1E-2D2F-38EF-AA2F-5A0071045EDA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Private\Character\SC_BaseCharacter.cpp">
+      <Filter>Source\SChiefs\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\SChiefs\Private\GameMode">
+      <UniqueIdentifier>{3376CDBA-9A2D-357B-9A93-0EC1A8AAB885}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Private\GameMode\SC_GameMode_Base.cpp">
+      <Filter>Source\SChiefs\Private\GameMode</Filter>
+    </ClCompile>
     <Filter Include="Source\SChiefs\Private\Player">
       <UniqueIdentifier>{8C0624C8-B81C-31DD-848A-88FE44E476B9}</UniqueIdentifier>
     </Filter>
@@ -84,6 +87,18 @@
     <Filter Include="Source\SChiefs\Public">
       <UniqueIdentifier>{FB9926AB-C6C1-3A98-879F-72A922ACFDB0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\SChiefs\Public\Character">
+      <UniqueIdentifier>{3428F9CE-6FD2-32F5-B28D-F73AEA11F972}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SChiefs\Public\Character\SC_BaseCharacter.h">
+      <Filter>Source\SChiefs\Public\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Public\GameMode">
+      <UniqueIdentifier>{EE9FBDF8-8B91-311E-B6BB-925ED21FDB3D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SChiefs\Public\GameMode\SC_GameMode_Base.h">
+      <Filter>Source\SChiefs\Public\GameMode</Filter>
+    </ClInclude>
     <Filter Include="Source\SChiefs\Public\Player">
       <UniqueIdentifier>{FE38D1C5-EA32-3D36-B668-FF1575CB33E3}</UniqueIdentifier>
     </Filter>

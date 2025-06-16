@@ -14,4 +14,12 @@ class SCHIEFS_API ASC_PlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
+public:
+	ASC_PlayerController();
+
+protected:
+	virtual void BeginPlay() override;
+
+private:
+	
 };

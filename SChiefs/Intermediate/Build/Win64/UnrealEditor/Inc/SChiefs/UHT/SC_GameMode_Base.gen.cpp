@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "SChiefs/GameMode/SC_GameMode_Base.h"
+#include "GameMode/SC_GameMode_Base.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
@@ -60,7 +60,7 @@ struct Z_Construct_UClass_ASC_GameMode_Base_Statics
 #endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "GameMode/SC_GameMode_Base.h" },
-		{ "ModuleRelativePath", "GameMode/SC_GameMode_Base.h" },
+		{ "ModuleRelativePath", "Public/GameMode/SC_GameMode_Base.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif // WITH_METADATA
@@ -104,14 +104,14 @@ ASC_GameMode_Base::~ASC_GameMode_Base() {}
 // ********** End Class ASC_GameMode_Base **********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_GameMode_SC_GameMode_Base_h__Script_SChiefs_Statics
+struct Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_GameMode_SC_GameMode_Base_h__Script_SChiefs_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASC_GameMode_Base, ASC_GameMode_Base::StaticClass, TEXT("ASC_GameMode_Base"), &Z_Registration_Info_UClass_ASC_GameMode_Base, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASC_GameMode_Base), 670251087U) },
+		{ Z_Construct_UClass_ASC_GameMode_Base, ASC_GameMode_Base::StaticClass, TEXT("ASC_GameMode_Base"), &Z_Registration_Info_UClass_ASC_GameMode_Base, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASC_GameMode_Base), 1775957211U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_GameMode_SC_GameMode_Base_h__Script_SChiefs_4201927502(TEXT("/Script/SChiefs"),
-	Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_GameMode_SC_GameMode_Base_h__Script_SChiefs_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_GameMode_SC_GameMode_Base_h__Script_SChiefs_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_GameMode_SC_GameMode_Base_h__Script_SChiefs_2976291360(TEXT("/Script/SChiefs"),
+	Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_GameMode_SC_GameMode_Base_h__Script_SChiefs_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_GameMode_SC_GameMode_Base_h__Script_SChiefs_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

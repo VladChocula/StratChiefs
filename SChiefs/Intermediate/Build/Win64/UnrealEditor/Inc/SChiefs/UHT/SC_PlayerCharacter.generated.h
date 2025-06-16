@@ -26,11 +26,13 @@ private: \
 	static UClass* GetPrivateStaticClass(); \
 	friend SCHIEFS_API UClass* Z_Construct_UClass_ASC_PlayerCharacter_NoRegister(); \
 public: \
-	DECLARE_CLASS2(ASC_PlayerCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SChiefs"), Z_Construct_UClass_ASC_PlayerCharacter_NoRegister) \
+	DECLARE_CLASS2(ASC_PlayerCharacter, ASC_BaseCharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SChiefs"), Z_Construct_UClass_ASC_PlayerCharacter_NoRegister) \
 	DECLARE_SERIALIZER(ASC_PlayerCharacter)
 
 
 #define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ASC_PlayerCharacter(); \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ASC_PlayerCharacter(ASC_PlayerCharacter&&) = delete; \
 	ASC_PlayerCharacter(const ASC_PlayerCharacter&) = delete; \

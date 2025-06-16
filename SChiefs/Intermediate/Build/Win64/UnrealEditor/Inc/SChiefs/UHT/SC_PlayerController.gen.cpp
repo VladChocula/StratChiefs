@@ -97,7 +97,6 @@ UClass* Z_Construct_UClass_ASC_PlayerController()
 	}
 	return Z_Registration_Info_UClass_ASC_PlayerController.OuterSingleton;
 }
-ASC_PlayerController::ASC_PlayerController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(ASC_PlayerController);
 ASC_PlayerController::~ASC_PlayerController() {}
 // ********** End Class ASC_PlayerController *******************************************************

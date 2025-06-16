@@ -31,14 +31,12 @@ public: \
 
 
 #define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerController_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ASC_PlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ASC_PlayerController(ASC_PlayerController&&) = delete; \
 	ASC_PlayerController(const ASC_PlayerController&) = delete; \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASC_PlayerController); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASC_PlayerController); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASC_PlayerController) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASC_PlayerController) \
 	NO_API virtual ~ASC_PlayerController();
 
 
