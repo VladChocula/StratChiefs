@@ -5,6 +5,7 @@
 
 ASC_PlayerController::ASC_PlayerController()
 {
+	bReplicates = true;
 }
 
 void ASC_PlayerController::BeginPlay()

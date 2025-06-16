@@ -72,18 +72,20 @@
 			"CombatPlayerController.cpp.obj",
 			"AnimNotify_EndDash.cpp.obj",
 			"PlatformingCharacter.cpp.obj",
+			"SChiefs.init.gen.cpp.obj",
+			"SC_GameMode_Base.gen.cpp.obj",
+			"SC_PlayerCharacter.gen.cpp.obj",
+			"SC_PlayerController.gen.cpp.obj",
+			"SC_BaseCharacter.cpp.obj",
+			"SC_GameMode_Base.cpp.obj",
+			"SC_PlayerCharacter.cpp.obj",
+			"SC_PlayerController.cpp.obj"
+		],
+		"Module.SChiefs.3.cpp.obj": [
 			"PlatformingGameMode.cpp.obj",
 			"PlatformingPlayerController.cpp.obj",
 			"SideScrollingAIController.cpp.obj",
 			"SideScrollingNPC.cpp.obj",
-			"SChiefs.init.gen.cpp.obj",
-			"SC_GameMode_Base.gen.cpp.obj",
-			"SC_PlayerController.gen.cpp.obj",
-			"SC_BaseCharacter.cpp.obj",
-			"SC_GameMode_Base.cpp.obj",
-			"SC_PlayerController.cpp.obj"
-		],
-		"Module.SChiefs.3.cpp.obj": [
 			"SideScrollingStateTreeUtility.cpp.obj",
 			"SideScrollingJumpPad.cpp.obj",
 			"SideScrollingMovingPlatform.cpp.obj",

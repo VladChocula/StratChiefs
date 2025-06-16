@@ -47,7 +47,3 @@
 #include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Combat/CombatPlayerController.cpp"
 #include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Platforming/AnimNotify_EndDash.cpp"
 #include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Platforming/PlatformingCharacter.cpp"
-#include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Platforming/PlatformingGameMode.cpp"
-#include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_Platforming/PlatformingPlayerController.cpp"
-#include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_SideScrolling/AI/SideScrollingAIController.cpp"
-#include "C:/UEProjects/StratChiefs/SChiefs/Source/SChiefs/Variant_SideScrolling/AI/SideScrollingNPC.cpp"
