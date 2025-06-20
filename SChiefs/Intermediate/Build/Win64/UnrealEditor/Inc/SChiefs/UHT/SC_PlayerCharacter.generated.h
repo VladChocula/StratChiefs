@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class ASC_PlayerCharacter ******************************************************
 SCHIEFS_API UClass* Z_Construct_UClass_ASC_PlayerCharacter_NoRegister();
 
-#define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASC_PlayerCharacter(); \
 	friend struct Z_Construct_UClass_ASC_PlayerCharacter_Statics; \
@@ -30,9 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ASC_PlayerCharacter)
 
 
-#define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ASC_PlayerCharacter(); \
+#define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_17_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ASC_PlayerCharacter(ASC_PlayerCharacter&&) = delete; \
 	ASC_PlayerCharacter(const ASC_PlayerCharacter&) = delete; \
@@ -42,12 +40,12 @@ public: \
 	NO_API virtual ~ASC_PlayerCharacter();
 
 
-#define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_12_PROLOG
-#define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_15_GENERATED_BODY \
+#define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_14_PROLOG
+#define FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
+	FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -4,20 +4,29 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "AbilitySystemInterface.h"
 #include "SC_BaseCharacter.generated.h"
 
-UCLASS()
-class SCHIEFS_API ASC_BaseCharacter : public ACharacter
+class UAbilitySystemComponent;
+class UAttributeSet;
+
+UCLASS(Abstract)
+class SCHIEFS_API ASC_BaseCharacter : public ACharacter, public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
 public:
 	ASC_BaseCharacter();
 
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+	UAttributeSet* GetAttributeSet() const { return AttributeSet; }
+
 protected:
 	virtual void BeginPlay() override;
 
-private:
-	
+	UPROPERTY()
+	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
 
+	UPROPERTY()
+	TObjectPtr<UAttributeSet> AttributeSet;
 };

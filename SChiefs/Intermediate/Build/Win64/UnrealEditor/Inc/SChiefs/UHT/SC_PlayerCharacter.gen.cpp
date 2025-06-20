@@ -12,6 +12,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSC_PlayerCharacter() {}
 
 // ********** Begin Cross Module References ********************************************************
+ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 SCHIEFS_API UClass* Z_Construct_UClass_ASC_BaseCharacter();
 SCHIEFS_API UClass* Z_Construct_UClass_ASC_PlayerCharacter();
 SCHIEFS_API UClass* Z_Construct_UClass_ASC_PlayerCharacter_NoRegister();
@@ -62,13 +64,35 @@ struct Z_Construct_UClass_ASC_PlayerCharacter_Statics
 		{ "IncludePath", "Player/SC_PlayerCharacter.h" },
 		{ "ModuleRelativePath", "Public/Player/SC_PlayerCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpringArmComp_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Player/SC_PlayerCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CameraComp_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Player/SC_PlayerCharacter.h" },
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_SpringArmComp;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraComp;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASC_PlayerCharacter>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_SpringArmComp = { "SpringArmComp", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerCharacter, SpringArmComp), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpringArmComp_MetaData), NewProp_SpringArmComp_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_CameraComp = { "CameraComp", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraComp_MetaData), NewProp_CameraComp_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASC_PlayerCharacter_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_SpringArmComp,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_CameraComp,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASC_PlayerCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ASC_PlayerCharacter_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_ASC_BaseCharacter,
 	(UObject* (*)())Z_Construct_UPackage__Script_SChiefs,
@@ -80,11 +104,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ASC_PlayerCharacter_Sta
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	nullptr,
+	Z_Construct_UClass_ASC_PlayerCharacter_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_ASC_PlayerCharacter_Statics::PropPointers),
 	0,
 	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ASC_PlayerCharacter_Statics::Class_MetaDataParams), Z_Construct_UClass_ASC_PlayerCharacter_Statics::Class_MetaDataParams)
@@ -97,7 +121,6 @@ UClass* Z_Construct_UClass_ASC_PlayerCharacter()
 	}
 	return Z_Registration_Info_UClass_ASC_PlayerCharacter.OuterSingleton;
 }
-ASC_PlayerCharacter::ASC_PlayerCharacter() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(ASC_PlayerCharacter);
 ASC_PlayerCharacter::~ASC_PlayerCharacter() {}
 // ********** End Class ASC_PlayerCharacter ********************************************************
@@ -106,10 +129,10 @@ ASC_PlayerCharacter::~ASC_PlayerCharacter() {}
 struct Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASC_PlayerCharacter, ASC_PlayerCharacter::StaticClass, TEXT("ASC_PlayerCharacter"), &Z_Registration_Info_UClass_ASC_PlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASC_PlayerCharacter), 2161174243U) },
+		{ Z_Construct_UClass_ASC_PlayerCharacter, ASC_PlayerCharacter::StaticClass, TEXT("ASC_PlayerCharacter"), &Z_Registration_Info_UClass_ASC_PlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASC_PlayerCharacter), 2758691583U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_3690726699(TEXT("/Script/SChiefs"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_285833383(TEXT("/Script/SChiefs"),
 	Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

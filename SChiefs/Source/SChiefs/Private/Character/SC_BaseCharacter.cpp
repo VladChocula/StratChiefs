@@ -11,6 +11,11 @@ ASC_BaseCharacter::ASC_BaseCharacter()
 
 }
 
+UAbilitySystemComponent* ASC_BaseCharacter::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
 // Called when the game starts or when spawned
 void ASC_BaseCharacter::BeginPlay()
 {

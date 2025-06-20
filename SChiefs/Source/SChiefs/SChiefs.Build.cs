@@ -17,10 +17,14 @@ public class SChiefs : ModuleRules
 			"AIModule",
 			"StateTreeModule",
 			"GameplayStateTreeModule",
-			"UMG"
+			"UMG",
+			"GameplayAbilities"
 		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PrivateDependencyModuleNames.AddRange(new string[] { 
+			"GameplayTags", 
+			"GameplayTasks" 
+		});
 
 		PublicIncludePaths.AddRange(new string[] {
 			"SChiefs",

@@ -42,27 +42,18 @@
     <ClInclude Include="..\..\Source\SChiefs\SChiefs.h">
       <Filter>Source\SChiefs</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\SChiefs\SChiefsCharacter.cpp">
-      <Filter>Source\SChiefs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SChiefs\SChiefsCharacter.h">
-      <Filter>Source\SChiefs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\SChiefs\SChiefsGameMode.cpp">
-      <Filter>Source\SChiefs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SChiefs\SChiefsGameMode.h">
-      <Filter>Source\SChiefs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\SChiefs\SChiefsPlayerController.cpp">
-      <Filter>Source\SChiefs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SChiefs\SChiefsPlayerController.h">
-      <Filter>Source\SChiefs</Filter>
-    </ClInclude>
     <Filter Include="Source\SChiefs\Private">
       <UniqueIdentifier>{A60E6220-72B1-3395-AE5E-FCD25506E544}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\SChiefs\Private\AbilitySystem">
+      <UniqueIdentifier>{338D43E1-6270-3D4D-8C4C-A9B1797DE18F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Private\AbilitySystem\SC_AbilitySystemComponent.cpp">
+      <Filter>Source\SChiefs\Private\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SChiefs\Private\AbilitySystem\SC_AttributeSet.cpp">
+      <Filter>Source\SChiefs\Private\AbilitySystem</Filter>
+    </ClCompile>
     <Filter Include="Source\SChiefs\Private\Character">
       <UniqueIdentifier>{88572A1E-2D2F-38EF-AA2F-5A0071045EDA}</UniqueIdentifier>
     </Filter>
@@ -84,9 +75,21 @@
     <ClCompile Include="..\..\Source\SChiefs\Private\Player\SC_PlayerController.cpp">
       <Filter>Source\SChiefs\Private\Player</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\SChiefs\Private\Player\SC_PlayerState.cpp">
+      <Filter>Source\SChiefs\Private\Player</Filter>
+    </ClCompile>
     <Filter Include="Source\SChiefs\Public">
       <UniqueIdentifier>{FB9926AB-C6C1-3A98-879F-72A922ACFDB0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\SChiefs\Public\AbilitySystem">
+      <UniqueIdentifier>{9E2792E9-BFA3-39A0-B2F8-5D8834006959}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SChiefs\Public\AbilitySystem\SC_AbilitySystemComponent.h">
+      <Filter>Source\SChiefs\Public\AbilitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SChiefs\Public\AbilitySystem\SC_AttributeSet.h">
+      <Filter>Source\SChiefs\Public\AbilitySystem</Filter>
+    </ClInclude>
     <Filter Include="Source\SChiefs\Public\Character">
       <UniqueIdentifier>{3428F9CE-6FD2-32F5-B28D-F73AEA11F972}</UniqueIdentifier>
     </Filter>
@@ -106,6 +109,9 @@
       <Filter>Source\SChiefs\Public\Player</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\SChiefs\Public\Player\SC_PlayerController.h">
+      <Filter>Source\SChiefs\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SChiefs\Public\Player\SC_PlayerState.h">
       <Filter>Source\SChiefs\Public\Player</Filter>
     </ClInclude>
     <Filter Include="Source\SChiefs\Variant_Combat">
