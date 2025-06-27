@@ -4,6 +4,9 @@
 #include "Player/SC_PlayerController.h"
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
+#include "DataAssets/DataAsset_InputConfig.h"
+#include "GameplayTags/SC_GameplayTags.h"
+#include "SCComponents/Input/Player/SC_PlayerInputComponent.h"
 
 ASC_PlayerController::ASC_PlayerController()
 {
@@ -22,20 +25,21 @@ void ASC_PlayerController::BeginPlay()
 	check(PlayerContext);
 	UEnhancedInputLocalPlayerSubsystem* Subsys = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer());
 
-	if (Subsys) { Subsys->AddMappingContext(PlayerContext, 0); }
+	if (Subsys) { Subsys->AddMappingContext(InputConfigDataAsset->DefaultMappingContext, 0); }
 }
 
 void ASC_PlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
+	checkf(InputConfigDataAsset, TEXT("INPUTCONFIGDATAASSET HAS NOT BEEN ASSIGNED IN PLAYER CONTROLLER"));
+	USC_PlayerInputComponent* SC_InputComp = CastChecked<USC_PlayerInputComponent>(InputComponent);
 	
-	UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(InputComponent);
-	
-	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ASC_PlayerController::Move);
-	EnhancedInputComponent->BindAction(MouseLookAction, ETriggerEvent::Triggered, this, &ASC_PlayerController::Look);
+	SC_InputComp->BindNativeInputAction(InputConfigDataAsset, SCGameplayTags::InputTag_Move, ETriggerEvent::Triggered, this, &ASC_PlayerController::Input_Move);
+	SC_InputComp->BindNativeInputAction(InputConfigDataAsset, SCGameplayTags::InputTag_Look, ETriggerEvent::Triggered, this, &ASC_PlayerController::Input_Look);
+
 }
 
-void ASC_PlayerController::Move(const FInputActionValue& InputActionValue)
+void ASC_PlayerController::Input_Move(const FInputActionValue& InputActionValue)
 {
 	const FVector2D InputAxisVector = InputActionValue.Get<FVector2D>();
 	const FRotator Rotation = GetControlRotation();
@@ -51,7 +55,7 @@ void ASC_PlayerController::Move(const FInputActionValue& InputActionValue)
 	}
 }
 
-void ASC_PlayerController::Look(const FInputActionValue& InputActionValue)
+void ASC_PlayerController::Input_Look(const FInputActionValue& InputActionValue)
 {
 	const FVector2D LookAxisValue = InputActionValue.Get<FVector2D>();
 

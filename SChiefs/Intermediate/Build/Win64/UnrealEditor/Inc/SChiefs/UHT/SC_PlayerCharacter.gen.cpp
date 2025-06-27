@@ -86,8 +86,8 @@ struct Z_Construct_UClass_ASC_PlayerCharacter_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_SpringArmComp = { "SpringArmComp", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerCharacter, SpringArmComp), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpringArmComp_MetaData), NewProp_SpringArmComp_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_CameraComp = { "CameraComp", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraComp_MetaData), NewProp_CameraComp_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_SpringArmComp = { "SpringArmComp", nullptr, (EPropertyFlags)0x004000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerCharacter, SpringArmComp), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpringArmComp_MetaData), NewProp_SpringArmComp_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_CameraComp = { "CameraComp", nullptr, (EPropertyFlags)0x004000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraComp_MetaData), NewProp_CameraComp_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASC_PlayerCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_SpringArmComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASC_PlayerCharacter_Statics::NewProp_CameraComp,
@@ -129,10 +129,10 @@ ASC_PlayerCharacter::~ASC_PlayerCharacter() {}
 struct Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASC_PlayerCharacter, ASC_PlayerCharacter::StaticClass, TEXT("ASC_PlayerCharacter"), &Z_Registration_Info_UClass_ASC_PlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASC_PlayerCharacter), 2758691583U) },
+		{ Z_Construct_UClass_ASC_PlayerCharacter, ASC_PlayerCharacter::StaticClass, TEXT("ASC_PlayerCharacter"), &Z_Registration_Info_UClass_ASC_PlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASC_PlayerCharacter), 1433384544U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_285833383(TEXT("/Script/SChiefs"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_1942322535(TEXT("/Script/SChiefs"),
 	Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerCharacter_h__Script_SChiefs_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

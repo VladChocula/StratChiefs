@@ -11,19 +11,22 @@
 
 ASC_PlayerCharacter::ASC_PlayerCharacter()
 {
-
-	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>("SpringArmComponent");
-	SpringArmComp->SetupAttachment(RootComponent);
-
-	CameraComp = CreateDefaultSubobject<UCameraComponent>("CameraComponent");
-	CameraComp->SetupAttachment(SpringArmComp);
-
-	GetCharacterMovement()->bOrientRotationToMovement = true;
-	GetCharacterMovement()->RotationRate = FRotator(0.f, 800.f, 0.f);
-	
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationRoll = false;
 	bUseControllerRotationYaw = false;
+
+	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>("SpringArmComponent");
+	SpringArmComp->SetupAttachment(RootComponent);
+	SpringArmComp->bUsePawnControlRotation = true;
+
+	CameraComp = CreateDefaultSubobject<UCameraComponent>("CameraComponent");
+	CameraComp->SetupAttachment(SpringArmComp);
+	CameraComp->bUsePawnControlRotation = false;
+	
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->RotationRate = FRotator(0.f, 500.f, 0.f);
+	GetCharacterMovement()->MaxWalkSpeed = 400.f;
+	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
 }
 
 void ASC_PlayerCharacter::PossessedBy(AController* NewController)

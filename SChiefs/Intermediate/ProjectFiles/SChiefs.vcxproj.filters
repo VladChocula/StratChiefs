@@ -60,11 +60,23 @@
     <ClCompile Include="..\..\Source\SChiefs\Private\Character\SC_BaseCharacter.cpp">
       <Filter>Source\SChiefs\Private\Character</Filter>
     </ClCompile>
+    <Filter Include="Source\SChiefs\Private\DataAssets">
+      <UniqueIdentifier>{6B9D10AB-E8BF-3C69-AD48-57D9E8FBB0AC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Private\DataAssets\DataAsset_InputConfig.cpp">
+      <Filter>Source\SChiefs\Private\DataAssets</Filter>
+    </ClCompile>
     <Filter Include="Source\SChiefs\Private\GameMode">
       <UniqueIdentifier>{3376CDBA-9A2D-357B-9A93-0EC1A8AAB885}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SChiefs\Private\GameMode\SC_GameMode_Base.cpp">
       <Filter>Source\SChiefs\Private\GameMode</Filter>
+    </ClCompile>
+    <Filter Include="Source\SChiefs\Private\GameplayTags">
+      <UniqueIdentifier>{16B77E12-043A-3071-8DBA-9B1BF36511B6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Private\GameplayTags\SC_GameplayTags.cpp">
+      <Filter>Source\SChiefs\Private\GameplayTags</Filter>
     </ClCompile>
     <Filter Include="Source\SChiefs\Private\Player">
       <UniqueIdentifier>{8C0624C8-B81C-31DD-848A-88FE44E476B9}</UniqueIdentifier>
@@ -77,6 +89,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\SChiefs\Private\Player\SC_PlayerState.cpp">
       <Filter>Source\SChiefs\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\SChiefs\Private\SCComponents">
+      <UniqueIdentifier>{BE670711-FB31-355E-BF7E-9A14CFBD514C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SChiefs\Private\SCComponents\Input">
+      <UniqueIdentifier>{FB54BCDD-565B-3D7F-A81A-1F7382C878E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SChiefs\Private\SCComponents\Input\Player">
+      <UniqueIdentifier>{B452396B-0DF1-39A8-B57F-A75681EFAAAC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SChiefs\Private\SCComponents\Input\Player\SC_PlayerInputComponent.cpp">
+      <Filter>Source\SChiefs\Private\SCComponents\Input\Player</Filter>
     </ClCompile>
     <Filter Include="Source\SChiefs\Public">
       <UniqueIdentifier>{FB9926AB-C6C1-3A98-879F-72A922ACFDB0}</UniqueIdentifier>
@@ -96,11 +120,23 @@
     <ClInclude Include="..\..\Source\SChiefs\Public\Character\SC_BaseCharacter.h">
       <Filter>Source\SChiefs\Public\Character</Filter>
     </ClInclude>
+    <Filter Include="Source\SChiefs\Public\DataAssets">
+      <UniqueIdentifier>{BF992457-8379-349C-8FB9-DC903F0C6D42}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SChiefs\Public\DataAssets\DataAsset_InputConfig.h">
+      <Filter>Source\SChiefs\Public\DataAssets</Filter>
+    </ClInclude>
     <Filter Include="Source\SChiefs\Public\GameMode">
       <UniqueIdentifier>{EE9FBDF8-8B91-311E-B6BB-925ED21FDB3D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\SChiefs\Public\GameMode\SC_GameMode_Base.h">
       <Filter>Source\SChiefs\Public\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Public\GameplayTags">
+      <UniqueIdentifier>{6D8DF46D-2520-367F-B001-F24D83BEDD01}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SChiefs\Public\GameplayTags\SC_GameplayTags.h">
+      <Filter>Source\SChiefs\Public\GameplayTags</Filter>
     </ClInclude>
     <Filter Include="Source\SChiefs\Public\Player">
       <UniqueIdentifier>{FE38D1C5-EA32-3D36-B668-FF1575CB33E3}</UniqueIdentifier>
@@ -113,6 +149,18 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\SChiefs\Public\Player\SC_PlayerState.h">
       <Filter>Source\SChiefs\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\SChiefs\Public\SCComponents">
+      <UniqueIdentifier>{1A53C727-0E75-39AF-9BE0-7BFB964E641B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SChiefs\Public\SCComponents\Input">
+      <UniqueIdentifier>{EF4AD8AF-6B39-38A7-B105-666CE1373592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SChiefs\Public\SCComponents\Input\Player">
+      <UniqueIdentifier>{E53F2ED2-6019-362C-ACFE-00BD7B86124B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SChiefs\Public\SCComponents\Input\Player\SC_PlayerInputComponent.h">
+      <Filter>Source\SChiefs\Public\SCComponents\Input\Player</Filter>
     </ClInclude>
     <Filter Include="Source\SChiefs\Variant_Combat">
       <UniqueIdentifier>{A271AD57-1717-39CB-A2BB-D1D7791688C3}</UniqueIdentifier>

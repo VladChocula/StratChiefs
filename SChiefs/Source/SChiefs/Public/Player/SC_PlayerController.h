@@ -10,6 +10,7 @@
 class UInputMappingContext;
 class UInputAction;
 struct FInputActionValue;
+class UDataAsset_InputConfig;
 /**
  * 
  */
@@ -37,8 +38,13 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<UInputAction> MouseLookAction;
 
-	void Move(const FInputActionValue& InputActionValue);
+#pragma region Inputs
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Input", meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<UDataAsset_InputConfig> InputConfigDataAsset;
 
-	void Look(const FInputActionValue& InputActionValue);
+	void Input_Move(const FInputActionValue& InputActionValue);
+
+	void Input_Look(const FInputActionValue& InputActionValue);
+#pragma endregion
 	
 };

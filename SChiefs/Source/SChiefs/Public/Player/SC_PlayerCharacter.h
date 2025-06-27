@@ -27,10 +27,10 @@ protected:
 
 private:
 
-	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess= "true"), Category = "Camera")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess= "true"), Category = "Camera")
 	USpringArmComponent* SpringArmComp;
 
-	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess= "true"), Category = "Camera")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess= "true"), Category = "Camera")
 	UCameraComponent* CameraComp;
 
 	void InitAbilityActorInfo();

@@ -17,6 +17,7 @@ ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 SCHIEFS_API UClass* Z_Construct_UClass_ASC_PlayerController();
 SCHIEFS_API UClass* Z_Construct_UClass_ASC_PlayerController_NoRegister();
+SCHIEFS_API UClass* Z_Construct_UClass_UDataAsset_InputConfig_NoRegister();
 UPackage* Z_Construct_UPackage__Script_SChiefs();
 // ********** End Cross Module References **********************************************************
 
@@ -76,10 +77,16 @@ struct Z_Construct_UClass_ASC_PlayerController_Statics
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/Player/SC_PlayerController.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InputConfigDataAsset_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "Public/Player/SC_PlayerController.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PlayerContext;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MouseLookAction;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_InputConfigDataAsset;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -90,10 +97,12 @@ struct Z_Construct_UClass_ASC_PlayerController_Statics
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerController_Statics::NewProp_PlayerContext = { "PlayerContext", nullptr, (EPropertyFlags)0x0144000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerController, PlayerContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlayerContext_MetaData), NewProp_PlayerContext_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerController_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0144000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerController, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerController_Statics::NewProp_MouseLookAction = { "MouseLookAction", nullptr, (EPropertyFlags)0x0144000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerController, MouseLookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MouseLookAction_MetaData), NewProp_MouseLookAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASC_PlayerController_Statics::NewProp_InputConfigDataAsset = { "InputConfigDataAsset", nullptr, (EPropertyFlags)0x0144000000020015, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASC_PlayerController, InputConfigDataAsset), Z_Construct_UClass_UDataAsset_InputConfig_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InputConfigDataAsset_MetaData), NewProp_InputConfigDataAsset_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASC_PlayerController_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASC_PlayerController_Statics::NewProp_PlayerContext,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASC_PlayerController_Statics::NewProp_MoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASC_PlayerController_Statics::NewProp_MouseLookAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASC_PlayerController_Statics::NewProp_InputConfigDataAsset,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASC_PlayerController_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ASC_PlayerController_Statics::DependentSingletons[])() = {
@@ -132,10 +141,10 @@ ASC_PlayerController::~ASC_PlayerController() {}
 struct Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerController_h__Script_SChiefs_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASC_PlayerController, ASC_PlayerController::StaticClass, TEXT("ASC_PlayerController"), &Z_Registration_Info_UClass_ASC_PlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASC_PlayerController), 1174216474U) },
+		{ Z_Construct_UClass_ASC_PlayerController, ASC_PlayerController::StaticClass, TEXT("ASC_PlayerController"), &Z_Registration_Info_UClass_ASC_PlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASC_PlayerController), 3908035049U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerController_h__Script_SChiefs_1485128245(TEXT("/Script/SChiefs"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerController_h__Script_SChiefs_522682677(TEXT("/Script/SChiefs"),
 	Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerController_h__Script_SChiefs_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UEProjects_StratChiefs_SChiefs_Source_SChiefs_Public_Player_SC_PlayerController_h__Script_SChiefs_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
