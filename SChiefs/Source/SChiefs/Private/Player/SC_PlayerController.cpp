@@ -32,6 +32,7 @@ void ASC_PlayerController::SetupInputComponent()
 	UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(InputComponent);
 	
 	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ASC_PlayerController::Move);
+	EnhancedInputComponent->BindAction(MouseLookAction, ETriggerEvent::Triggered, this, &ASC_PlayerController::Look);
 }
 
 void ASC_PlayerController::Move(const FInputActionValue& InputActionValue)
@@ -47,5 +48,16 @@ void ASC_PlayerController::Move(const FInputActionValue& InputActionValue)
 	{
 		ControlledPawn->AddMovementInput(ForwardDir, InputAxisVector.Y);
 		ControlledPawn->AddMovementInput(RightDir, InputAxisVector.X);
+	}
+}
+
+void ASC_PlayerController::Look(const FInputActionValue& InputActionValue)
+{
+	const FVector2D LookAxisValue = InputActionValue.Get<FVector2D>();
+
+	if (APawn* ControlledPawn = GetPawn<APawn>())
+	{
+		ControlledPawn->AddControllerYawInput(LookAxisValue.X);
+		ControlledPawn->AddControllerPitchInput(LookAxisValue.Y);
 	}
 }
