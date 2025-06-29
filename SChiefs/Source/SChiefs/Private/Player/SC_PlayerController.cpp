@@ -42,15 +42,18 @@ void ASC_PlayerController::SetupInputComponent()
 void ASC_PlayerController::Input_Move(const FInputActionValue& InputActionValue)
 {
 	const FVector2D InputAxisVector = InputActionValue.Get<FVector2D>();
-	const FRotator Rotation = GetControlRotation();
-	const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+	const FRotator MovementRotation(0.f,GetControlRotation().Yaw, 0.f);
+	APawn* ControlledPawn = GetPawn<APawn>();
 
-	const FVector ForwardDir = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-	const FVector RightDir = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-
-	if (APawn* ControlledPawn = GetPawn<APawn>())
+	if (InputAxisVector.Y != 0.f && ControlledPawn)
 	{
+		const FVector ForwardDir = MovementRotation.RotateVector(FVector::ForwardVector);
 		ControlledPawn->AddMovementInput(ForwardDir, InputAxisVector.Y);
+	}
+
+	if (InputAxisVector.X != 0.f && ControlledPawn)
+	{
+		const FVector RightDir = MovementRotation.RotateVector(FVector::RightVector);
 		ControlledPawn->AddMovementInput(RightDir, InputAxisVector.X);
 	}
 }
