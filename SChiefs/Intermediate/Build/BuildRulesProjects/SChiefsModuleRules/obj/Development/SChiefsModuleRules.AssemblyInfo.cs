@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SChiefsModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0ef149021e6409ea6774d60e66a884bfb7c2eae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2795f5d40f58f7efc479f5db11c976ac64b3ad91")]
 [assembly: System.Reflection.AssemblyProductAttribute("SChiefsModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SChiefsModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
